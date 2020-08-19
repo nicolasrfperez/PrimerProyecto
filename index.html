@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+<link rel="stylesheet" href="./css/style.css">
+<title>TP Supermercado</title>
+</head>
+
+<body>
+       <div id= body>     
+
+        <header>
+            <h1 id= "titulo">Supermercado Argento</h1>   
+        </header>
+
+        <div>
+            <div class="grid">    
+                
+                    <div>
+                        
+                        <div class="lista text-center">
+                            <div>
+                                <h3>Productos Disponibles</h3>
+                            </div>
+                        </div>
+                        <div>
+                            <table class="lista table-striped ">
+                                <thead class=" text-center">
+                                    <th>Nombre</th>
+                                    <th>Precio unitario</th>
+                                    <th>Cantidad</th>
+                                    <th>Agregar al carrito</th>
+                                </thead>
+                                <tbody id="tablaStock">
+                                
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+
+                        <div class ="compra text-center ">
+                            <div>
+                                <h3>Compra</h3>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <table class="table-striped table-dark text-center" id="table_return">
+                                <thead class="thead-dark">
+                                    <th>Nombre</th>
+                                    <th>Precio Unitario</th>
+                                    <th>Cantidad</th>
+                                    <th>Sub Total</th>
+                                    <th>Borrar</th>
+                                    
+                                    
+                                
+                                </thead>
+                                <tbody  id="table_buy"> 
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        
+                    </div>
+                    <div class="text-light text-center">
+                        <button class="btn btn-success btn-custom" onclick="totalCompra()">Finalizar Compra</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1 id="total"></h1>
+    </div>
+    <script src="./js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    </body>
+    </html>
+
+</body>
+
+</html>

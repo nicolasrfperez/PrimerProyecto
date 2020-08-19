@@ -1,0 +1,44 @@
+.grid {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "lista compra";
+}
+
+.height {
+    height: 81.0vh;
+    overflow: none;
+}
+
+.lista {
+    display: grid;
+}
+
+.compra {
+    display: grid;
+}
+.table {
+    font-size: small;
+    text-align: center;
+}
+
+/*.btn-custom {
+    width: 100%;
+}
+*/
+#body {
+    background-color: pink;
+}
+
+
+#titulo {
+    text-align: center;
+    color: yellow;
+    background-color: blue;
+}
+
+.text-center {
+    text-align: center;
+}
+
