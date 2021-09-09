@@ -54,12 +54,12 @@ function totalCompra()
     var total = 0;
     ProdComp.forEach(unProducto =>
     {
-        total = total + unProducto.precioUnitario * unProducto.cantidad;
+        total += unProducto.precioUnitario * unProducto.cantidad;
     });
     // se actualiza el html con el nuevo total.
     var mensaje = document.getElementById('total');
 
-    mensaje.innerHTML = "Total: " + total;
+    mensaje.innerHTML = `Total:  ${total}`;
 }
 
 //Al ser invocada crea un td

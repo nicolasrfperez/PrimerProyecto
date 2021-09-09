@@ -7,15 +7,20 @@
 <meta name="Description" content="Enter your description here"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 <link rel="stylesheet" href="./css/style.css">
-<title>TP Supermercado</title>
+<title>Carrito Super</title>
 </head>
 
 <body>
-       <div id= body>     
+       <div id= body> 
+
+
 
         <header>
-            <h1 id= "titulo">Supermercado Argento</h1>   
+            <div class="jumbotron jumbotron-fluid">
+                <h1 class="display-4 text-center">Bienvenido a Supermercado Argento</h1>
+            </div>
         </header>
 
         <div>
@@ -23,20 +28,20 @@
                 
                     <div>
                         
-                        <div class="lista text-center">
+                        <div class="lista  text-center">
                             <div>
                                 <h3>Productos Disponibles</h3>
                             </div>
                         </div>
-                        <div>
-                            <table class="lista table-striped ">
-                                <thead class=" text-center">
-                                    <th>Nombre</th>
-                                    <th>Precio unitario</th>
-                                    <th>Cantidad</th>
-                                    <th>Agregar al carrito</th>
+                        <div class="text-center">
+                            <table class="  table-striped table text-center">
+                                <thead class=" table-striped text-center">
+                                        <th>Nombre</th>
+                                        <th>Precio unitario</th>
+                                        <th>Cantidad</th>
+                                        <th>Agregar al carrito</th>
                                 </thead>
-                                <tbody id="tablaStock">
+                                <tbody id="tablaStock" >
                                 
                                 </tbody>
                             </table>
@@ -51,8 +56,8 @@
                             </div>
                         </div>
                         <div class="text-center">
-                            <table class="table-striped table-dark text-center" id="table_return">
-                                <thead class="thead-dark">
+                            <table class=" table table-striped  table-dark text-center " id="table_return">
+                                <thead class="text-center thead-dark ">
                                     <th>Nombre</th>
                                     <th>Precio Unitario</th>
                                     <th>Cantidad</th>
@@ -73,19 +78,19 @@
                     <div>
                         
                     </div>
-                    <div class="text-light text-center">
-                        <button class="btn btn-success btn-custom" onclick="totalCompra()">Finalizar Compra</button>
-                    </div>
+                   
                 </div>
             </div>
-        </div>
-        <h1 id="total"></h1>
-    </div>
-    <script src="./js/script.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    </body>
+
+                <div class="text-light text-center">
+                    <button class="btn btn-success btn-custom" onclick="totalCompra()">Finalizar Compra</button>
+                </div> 
+
+            </div>
+                <h1 id="total"></h1>
+            </div>
+                <script src="./js/script.js"></script>
+        </body>
     </html>
 
 </body>
